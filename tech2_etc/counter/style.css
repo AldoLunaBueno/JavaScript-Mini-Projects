@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body, html {
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+    background-color: #eff4f5;
+}
+
+.card {
+    width: 600px;
+    height: 350px;
+    box-shadow: 10px 10px 15px rgb(192, 183, 183), -10px -10px 15px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4%;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+#countText {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.counterBtn {
+    font-size: 4rem;
+    outline: none;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    margin: 0 2rem;        
+}
+
+.prevBtn {
+    background-color: #ff6962;
+}
+
+.nextBtn {
+    background-color: #77dd76
+}
