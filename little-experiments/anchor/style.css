@@ -1,0 +1,24 @@
+body {
+    display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  color: aliceblue;
+  background-color: rgb(73, 73, 245);
+}
+
+.anchor {
+  anchor-name: --my-anchor;
+}
+
+.info {
+  position: absolute;
+  color: black;
+  background-color: bisque;
+  position-anchor: --my-anchor;
+  position-area: center right;
+  display: none;
+}

@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: blueviolet;
+  border-radius: 50%;
+  border: 3px solid black;
+  &.source {
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    left: 30%;
+    background: red;
+    order: 0;
+    z-index: 1;
+  }
+  &.target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;    
+    top: 30%;
+    right: 20%
+  }
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
