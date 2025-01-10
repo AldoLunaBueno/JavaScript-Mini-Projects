@@ -1,0 +1,32 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(251, 213, 157);
+    border: 2px solid black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(55, 0, 255, 0.737);
+    border: 2px solid black;
+    z-index: 1;
+}
